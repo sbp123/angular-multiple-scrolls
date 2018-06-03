@@ -1,0 +1,31 @@
+
+<div class="scrollbar-outer-container">
+    <div class="h-scrollbar" scrolling-handler scrolled-components="vm.scrolledComponents"
+         notifying-scroller='vm.notifyingScroller'
+         scrolling-components="{backwardBtn: '#h-scrollbar-right-button', 
+                                forwardBtn: '#h-scrollbar-left-button', 
+                                scrollThumb:'#h-scrollbar-thumb', 
+                                scrollTrack: '#h-scrollbar-track'}">
+        <div class="left-btn btn-enabled" id="h-scrollbar-left-button">
+            <!--Do not use button as it does provide mini proper dim in MS etc --> 
+            <div class="btn-left-skin btn-dim-custom">
+                <i class="fa fa-caret-left icon-pos-left" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="track" id="h-scrollbar-track">
+            <div class="thumb-btn" id="h-scrollbar-thumb">
+                <div class="btn-thumb-skin btn-block">
+                    <i class="fa fa-bars fa-rotate-90 icon-thumb" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-btn btn-ensabled" id="h-scrollbar-right-button">
+            <div class="btn-right-skin btn-dim-custom">
+                <i class="fa fa-caret-right icon-pos-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
